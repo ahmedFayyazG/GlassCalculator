@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  align-items: center;
+  background: linear-gradient(2deg, rgba(0, 2, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(85.68deg, rgba(88, 190, 246, 0.5) -4.72%, rgba(123, 196, 237, 0) 86.87%), linear-gradient(0deg, rgba(150, 236, 255, 0.5), rgba(150, 236, 255, 0.5)), #FFFFFF;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.Calculator_layout {
+
+  box-sizing: border-box;
+  position: absolute;
+  width: 340px;
+  height: 700px;
+  left: calc(65% - 390px/2 - 227px);
+  top: calc(50% - 700px/2);
+  
+  background: linear-gradient(167.95deg, #FBFBFB 0%, rgba(251, 251, 251, 0.2) 100%);
+  border: 1px solid #FFFFFF;
+  box-shadow: 7px 7px 20px rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(50px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 18px;
+}
+

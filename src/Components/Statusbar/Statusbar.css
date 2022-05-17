@@ -1,0 +1,88 @@
+.statusBar__main{
+    
+position: absolute;
+width: 392px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+    position: absolute;
+    border-radius: 20px;
+
+}
+
+
+
+.statusBar__main_time {
+    Color: Clear;
+    height: 21px;
+    width: 54px;
+    left: 21px;
+    top: 12px;
+    border-radius: 20px;
+    
+}
+
+
+
+.indicator {
+    /* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+width: 69px;
+height: 14px;
+right: 14px;
+top: 16px;
+}
+
+.history_tab {
+    margin-top: 60px !important;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+
+.ScoreScreen {
+    position: absolute;
+    height: fit-content;
+    align-content: right;
+    width: 125px;
+    height: 43px;
+    left: 200px;
+    top: 110px;
+    align-items: right !important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 43px;
+    color: #707070;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.Total {
+position: absolute;
+width: 120px;
+height: 124px;
+left: 200px;
+top: 150px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 124px;
+align-items: right !important;
+color: #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
